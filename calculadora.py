@@ -20,6 +20,7 @@ while True:
 	* multiplicação
 	/ divisão
 	// divisão de números inteiros
+        ** potenciação
 >>> ''')
 
 
@@ -45,6 +46,9 @@ while True:
 	if operacao == '//':
 		print('{} // {} ='.format(n1, n2))
 		print(n1 // n2)
-
+        
+	if operacao == '**':
+		print('{} ** {} ='.format(n1, n2))
+		print(n1 ** n2)
 	else:
 		print('Obrigado')
